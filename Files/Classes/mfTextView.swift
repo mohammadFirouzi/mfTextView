@@ -56,6 +56,7 @@ import UIKit
         
         cnsTxtContentHeight.constant = contentMaxHeight
         
+        checkMaxHeight()
     }
     
     //MARK:- outlets
@@ -101,9 +102,10 @@ import UIKit
     }
     
     //MARK:- placeholder attributes
-    @IBInspectable public var placeholderText: String = String() {
+    @IBInspectable public var placeholderText: String = " " {
         didSet {
             lblPlaceholder.text = placeholderText
+            checkMaxHeight()
         }
     }
     
