@@ -10,7 +10,8 @@
 		0F0EE74306D36BFA7D3EF5B47EC5356A /* Pods-mfTextView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CD41E830801031E8769CBA6108DE0A /* Pods-mfTextView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1CE51B74530C4546EB8892D062E8E804 /* Pods-mfTextView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF8053CB97006D5D9DC30525427126C0 /* Pods-mfTextView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2309FD9FE32E9E04B0F4C4B089503323 /* Pods-mfTextView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E19F9FCB2E82F57EC967394B7CF903 /* Pods-mfTextView_Example-dummy.m */; };
-		643F5F95373F9FECC987F3116A425942 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F4D3419C3A73F30D7962BF96AC3FE2 /* ReplaceMe.swift */; };
+		275CB3CC25035DB800E2F765 /* mfTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275CB3CA25035DB800E2F765 /* mfTextView.swift */; };
+		275CB3CD25035DB800E2F765 /* mfTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 275CB3CB25035DB800E2F765 /* mfTextView.xib */; };
 		6645F3A25F62E3E2C356370143387D6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		82FDB952704A99E59827FBF3E4197E5A /* Pods-mfTextView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F75B34A70A625AD959BBB41AE149EBA8 /* Pods-mfTextView_Tests-dummy.m */; };
 		B53D425A98E5EEECDC15E92EBDA70170 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -41,28 +42,29 @@
 		0BB1DBFC90B1281DEDA27EA997CD8CDB /* Pods-mfTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mfTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		13BC6A007B6C82A45B565621929156C7 /* Pods-mfTextView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mfTextView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1C1B096A7EC7D5EBABB904795107E5BD /* Pods-mfTextView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mfTextView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		24714069748345E0030D603AFDA7B0B0 /* mfTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = mfTextView.framework; path = mfTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24714069748345E0030D603AFDA7B0B0 /* mfTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mfTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2471FBB47ABEE0968AD9BE0E4D773C0C /* Pods-mfTextView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-mfTextView_Example.modulemap"; sourceTree = "<group>"; };
-		2765A2ACE08BDCF4FE3DFDBBC7247EA6 /* Pods_mfTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_mfTextView_Example.framework; path = "Pods-mfTextView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		275CB3CA25035DB800E2F765 /* mfTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mfTextView.swift; sourceTree = "<group>"; };
+		275CB3CB25035DB800E2F765 /* mfTextView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mfTextView.xib; sourceTree = "<group>"; };
+		2765A2ACE08BDCF4FE3DFDBBC7247EA6 /* Pods_mfTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mfTextView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F8485461743AF71CE284D771EA21837 /* Pods-mfTextView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mfTextView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3CDC93F44A9C74B2ABEDC88D37BE6466 /* Pods-mfTextView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mfTextView_Tests-Info.plist"; sourceTree = "<group>"; };
 		47D77FFAB2555CAC78BB992F280807DF /* Pods-mfTextView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mfTextView_Example-Info.plist"; sourceTree = "<group>"; };
 		4A4FB2BD2C4366600A2D0CE74E7CEF02 /* Pods-mfTextView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-mfTextView_Tests.modulemap"; sourceTree = "<group>"; };
-		52F4D3419C3A73F30D7962BF96AC3FE2 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = mfTextView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		68E19F9FCB2E82F57EC967394B7CF903 /* Pods-mfTextView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mfTextView_Example-dummy.m"; sourceTree = "<group>"; };
 		6E81F21A5C6C3B01D883423D81D3F64C /* Pods-mfTextView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mfTextView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		82CD41E830801031E8769CBA6108DE0A /* Pods-mfTextView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mfTextView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8D3F2B2B8D77F2159722FFA7D6E1227C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A21BFE7BC07944FA2278729A4FCE5BBD /* mfTextView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = mfTextView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8D3F2B2B8D77F2159722FFA7D6E1227C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A21BFE7BC07944FA2278729A4FCE5BBD /* mfTextView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = mfTextView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A983DD6D93C75D7DCF0C552CBCA88954 /* mfTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mfTextView-umbrella.h"; sourceTree = "<group>"; };
 		AC95A194F34B1E78C092AFB360ABB027 /* mfTextView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "mfTextView-Info.plist"; sourceTree = "<group>"; };
 		ACA8C4A9C5E82A17D0704771DB44AAC3 /* mfTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = mfTextView.modulemap; sourceTree = "<group>"; };
 		B8DB61C4126AA7D91940603970A67809 /* mfTextView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mfTextView.release.xcconfig; sourceTree = "<group>"; };
-		BC823F3A4B2D2CAD80C3B556CF4B0FBC /* Pods_mfTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_mfTextView_Tests.framework; path = "Pods-mfTextView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC823F3A4B2D2CAD80C3B556CF4B0FBC /* Pods_mfTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mfTextView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A1DF994E78E01506C1F01F5DF9CE96 /* mfTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "mfTextView-dummy.m"; sourceTree = "<group>"; };
-		CB80CAC0184FF060B66B0B323C62F508 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CB80CAC0184FF060B66B0B323C62F508 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D2755FCFBCE6C3D93521135642A46349 /* mfTextView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mfTextView.debug.xcconfig; sourceTree = "<group>"; };
 		DED0AAC3CD811AD7642E6F73CBFC70A0 /* Pods-mfTextView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mfTextView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E36DF019B0CB46E3DA97A0CCF18BCBD6 /* mfTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mfTextView-prefix.pch"; sourceTree = "<group>"; };
@@ -112,12 +114,29 @@
 		156010F2FC06E475215E5247164C959E /* mfTextView */ = {
 			isa = PBXGroup;
 			children = (
-				52F4D3419C3A73F30D7962BF96AC3FE2 /* ReplaceMe.swift */,
+				275CB3C825035D8D00E2F765 /* Files */,
 				6B491E7A4AAE5E69A9B1E1B8FDA27FD0 /* Pod */,
 				ABB40FCAD267C8D78FC8CD9EB21FAD6C /* Support Files */,
 			);
 			name = mfTextView;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		275CB3C825035D8D00E2F765 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				275CB3C925035D9A00E2F765 /* Classes */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		275CB3C925035D9A00E2F765 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				275CB3CA25035DB800E2F765 /* mfTextView.swift */,
+				275CB3CB25035DB800E2F765 /* mfTextView.xib */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		371DA27DED18DFF5703F8B20FFED0791 /* Development Pods */ = {
@@ -317,6 +336,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					0D248385CB38FD1DEB5A177FDAFC2236 = {
+						LastSwiftMigration = 1150;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -357,6 +381,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				275CB3CD25035DB800E2F765 /* mfTextView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,8 +408,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				275CB3CC25035DB800E2F765 /* mfTextView.swift in Sources */,
 				C1F451A918DE3036782E4C6BA2A22431 /* mfTextView-dummy.m in Sources */,
-				643F5F95373F9FECC987F3116A425942 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +502,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D2755FCFBCE6C3D93521135642A46349 /* mfTextView.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -497,6 +523,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -591,8 +618,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -666,6 +692,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B8DB61C4126AA7D91940603970A67809 /* mfTextView.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
