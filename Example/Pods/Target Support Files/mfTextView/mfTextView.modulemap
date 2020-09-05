@@ -1,0 +1,6 @@
+framework module mfTextView {
+  umbrella header "mfTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}

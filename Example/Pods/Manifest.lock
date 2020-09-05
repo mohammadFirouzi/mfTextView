@@ -1,0 +1,16 @@
+PODS:
+  - mfTextView (0.1.0)
+
+DEPENDENCIES:
+  - mfTextView (from `../`)
+
+EXTERNAL SOURCES:
+  mfTextView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  mfTextView: 6737b682f0ae9966bbf760dac047982d156865ca
+
+PODFILE CHECKSUM: b31c7c96455ffd2a8dbbaa498e439d6e2bafee7f
+
+COCOAPODS: 1.9.3
