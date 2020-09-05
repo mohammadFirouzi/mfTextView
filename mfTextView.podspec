@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'mfTextView'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'mfTextView is a flexible textView with placeholder that gives you special features and will meet your needs for a textView.'
 
 # This description is used to generate tags and improve search results.

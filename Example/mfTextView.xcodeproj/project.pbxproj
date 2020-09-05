@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		56351FB12065E7989E790B29 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		56351FB12065E7989E790B29 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* mfTextView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mfTextView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,14 +39,14 @@
 		607FACE51AFB9204008FA782 /* mfTextView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mfTextView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8E654CAD3BAC8A61C79213AA /* mfTextView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = mfTextView.podspec; path = ../mfTextView.podspec; sourceTree = "<group>"; };
+		8E654CAD3BAC8A61C79213AA /* mfTextView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = mfTextView.podspec; path = ../mfTextView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B5734BC30B7140B63FCF9594 /* Pods_mfTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mfTextView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B92568D98DFC80C2CC683A07 /* Pods-mfTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mfTextView_Example.release.xcconfig"; path = "Target Support Files/Pods-mfTextView_Example/Pods-mfTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CB7AF9B2B868BC2EDEB3C8AB /* Pods_mfTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mfTextView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D384C827C6F9BF428543465D /* Pods-mfTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mfTextView_Tests.release.xcconfig"; path = "Target Support Files/Pods-mfTextView_Tests/Pods-mfTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D69FD2011AE77E58CB279681 /* Pods-mfTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mfTextView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-mfTextView_Tests/Pods-mfTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EF8F65F425923FA05A956D92 /* Pods-mfTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mfTextView_Example.debug.xcconfig"; path = "Target Support Files/Pods-mfTextView_Example/Pods-mfTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FD3FC82D43F40C83FDAA0380 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FD3FC82D43F40C83FDAA0380 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				D69FD2011AE77E58CB279681 /* Pods-mfTextView_Tests.debug.xcconfig */,
 				D384C827C6F9BF428543465D /* Pods-mfTextView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

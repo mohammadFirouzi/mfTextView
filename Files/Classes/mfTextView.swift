@@ -72,7 +72,6 @@ import UIKit
     @IBInspectable public var titleText: String = String() {
         didSet {
             lblTitle.text = titleText
-            checkMaxHeight()
         }
     }
     
@@ -125,6 +124,7 @@ import UIKit
         didSet {
             txtContent.text = contentText
             refreshPlaceholder()
+            checkMaxHeight()
         }
     }
     
@@ -162,13 +162,19 @@ import UIKit
     }
     
     private func checkMaxHeight() {
-        if contentMaxHeight == 0 || txtContent.contentSize.height < contentMaxHeight {
+        if contentMaxHeight == 0 || getTextHeight(text: txtContent.text) < contentMaxHeight {
             cnsTxtContentHeight.isActive = false
             txtContent.isScrollEnabled = false
         } else {
             cnsTxtContentHeight.isActive = true
             txtContent.isScrollEnabled = true
         }
+    }
+    
+    private func getTextHeight(text: String) -> CGFloat {
+        let constraintRect = CGSize(width: self.frame.width, height: CGFloat.greatestFiniteMagnitude)
+        let boundingBox = text.boundingRect(with: constraintRect , options: [.usesLineFragmentOrigin] , attributes: [NSAttributedString.Key.font : contentFont] , context: nil)
+        return boundingBox.height
     }
     
     public func showError(error: String){
@@ -200,14 +206,12 @@ import UIKit
             }
         }
     }
-    
 }
 
 //MARK:- textView delegate
 extension mfTextView: UITextViewDelegate {
     public func textViewDidChange(_ textView: UITextView) {
-        refreshPlaceholder()
-        checkMaxHeight()
+        contentText = textView.text
         delegate?.mfTextViewContentDidChange(textView: textView)
     }
     
