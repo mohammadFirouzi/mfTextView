@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'mfTextView_Example' do
+  pod 'mfTextView', :path => '../'
+
+  target 'mfTextView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
